@@ -1,0 +1,45 @@
+.graficos-container {
+    background-color: #bbdefb;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .graficos-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .graficos-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .grafico {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+  
+  .grafico h3 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .grafico-chart {
+    height: 250px;
+    position: relative;
+  }
+  
+  .grafico p {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .grafico {
+      width: 100%;
+    }
+  }
